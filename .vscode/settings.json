@@ -1,0 +1,9 @@
+{
+    "code-runner.runInTerminal": true,
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.saveFileBeforeRun": true,
+    "code-runner.executorMap": {
+        "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && cmd /c \"$fileNameWithoutExt < ../input.txt > ../output.txt\"",
+        "python": "cd $dir && cmd /c \"python $fileName < ../input.txt > ../output.txt\""
+    }
+}
