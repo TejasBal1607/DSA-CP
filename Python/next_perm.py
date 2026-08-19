@@ -10,8 +10,8 @@ for i in range(n-2, -1, -1):
         break
 
 if index == -1:
-    nums.sort(reverse=True)
-
+    nums.reverse()
+    
 else:
     for i in range(n-1, index, -1):
         if nums[i] > nums[index]:
